@@ -59,7 +59,7 @@ def main():
 				custom_emoji = ':disappointed:'
 				st.write(emoji.emojize(custom_emoji,use_aliases=True))
 			elif result ==0:
-				st.write(emoji.emojize(':expressionless:',use_aliases=True))
+				st.write(emoji.emojize(':relieved:',use_aliases=True))
 			elif result >=0.1 and result <=0.5:
 				st.write (emoji.emojize(':smile:',use_aliases=True))
 			else:
