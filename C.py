@@ -60,7 +60,7 @@ def main():
 				st.write(emoji.emojize(custom_emoji,use_aliases=True))
 			elif result ==0:
 				st.write(emoji.emojize(':expressionless:',use_aliases=True))
-			elif result >=1 and result <=5:
+			elif result >=0.1 and result <=0.5:
 				st.write (emoji.emojize(':smile:',use_aliases=True))
 			else:
 				st.write (emoji.emojize(':grinning_face_with_smiling_eyes:',use_aliases=True))
