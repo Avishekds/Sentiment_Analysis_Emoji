@@ -60,7 +60,7 @@ def main():
 				st.write(emoji.emojize(custom_emoji,use_aliases=True))
 			elif result ==0:
 				st.write(emoji.emojize(':innocent:',use_aliases=True))
-			elif result >=0.1 and result <=0.3:
+			elif result >=0.1 and result <=0.4:
 				st.write (emoji.emojize(':smile:',use_aliases=True))
 			else:
 				st.write (emoji.emojize(':heart_eyes:',use_aliases=True))
