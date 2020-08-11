@@ -23,7 +23,7 @@ def get_text(raw_url):
 def main():
 	"""Sentiment Analysis Emoji App """
 
-	st.title("Sentiment Analysis Emoji App")
+	st.title("Text Sentiment Analysis & Emoji App")
 
 	activities = ["Sentiment","Emoji App","About"]
 	choice = st.sidebar.selectbox("Choice",activities)
